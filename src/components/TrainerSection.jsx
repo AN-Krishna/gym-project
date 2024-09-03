@@ -28,7 +28,7 @@ const TrainerSection = () => {
       <div className="flex justify-center mt-8">
         <button
           onClick={toggleShow}
-          className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-700"
+          className="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-700"
         >
           {showAll ? 'View Less' : 'Show All'}
         </button>

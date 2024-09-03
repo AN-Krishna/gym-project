@@ -12,7 +12,7 @@ const MainPage = () => {
   return (
     <div>
     <div className='container mx-auto bg-neutral-900'>
-      {/* <Navbar/> */}
+      <Navbar/>
       <HomePage/>
       <AboutUs/>
       <WhyChooseUs/>

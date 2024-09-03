@@ -76,13 +76,13 @@ const Navbar = () => {
             <a href="#" className="text-white text-center hover:bg-neutral-300 block px-3 py-2 rounded-md text-base font-medium">
               Program
             </a>
-            <a href="#" className="text-white text-center hover:bg-neutral-300 block px-3 py-2 rounded-md text-base font-medium">
+            <a href="#training" className="text-white text-center hover:bg-neutral-300 block px-3 py-2 rounded-md text-base font-medium">
               Training
             </a>
-            <a href="#" className="text-white text-center hover:bg-neutral-300 block px-3 py-2 rounded-md text-base font-medium">
+            <a href="#membership" className="text-white text-center hover:bg-neutral-300 block px-3 py-2 rounded-md text-base font-medium">
               Pricing
             </a>
-            <a href='#' className='text-white text-center hover:bg-neutral-300 block px-3 py-2 rounded-md text-base font-medium'>Join Us</a>
+            <Link to='/auth' className='text-white text-center hover:bg-neutral-300 block px-3 py-2 rounded-md text-base font-medium'>Join Us</Link>
           </div>
         </div>
       )}
