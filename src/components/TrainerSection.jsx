@@ -16,7 +16,7 @@ const TrainerSection = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {displayedTeam.map((member, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div key={index} className="bg-neutral-500 text-white rounded-lg shadow-lg overflow-hidden">
             <img src={member.image} alt={member.title} className="w-full h-56 object-cover" />
             <div className="p-4">
               <h2 className="text-xl font-bold">{member.title}</h2>
